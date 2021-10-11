@@ -1,0 +1,107 @@
+<html>
+<header>
+  <link href="main.css" rel="stylesheet"> 
+ 
+  <script>
+  
+  function Validatename() {
+  
+          if (document.getElementById("txtname").value == "") 
+    {
+              alert("Please enter Name!");
+              return false;
+          }
+  
+    if (document.getElementById("txtemail").value == "") 
+    {
+              alert("Please enter Email!");
+              return false;
+          }
+    if (document.getElementById("txtcomp").value == "") 
+    {
+              alert("Please enter company Name!");
+              return false;
+          }
+          document.getElementById("lblName").innerHTML ="Feedback Submitted";
+      };
+  
+  </script> 
+   
+  
+
+</head>
+<body>
+
+  <p>
+    <Center> <h1>Your Feedback</h1></Center> 
+  </p>
+<center>
+  <p>
+
+    <font color=black> 
+    
+      <table style="border-radius: 10px; border: 1px solid ;"> 
+
+      <tr>
+        <td>  Enter your name</td> <td></td> <td></td>
+      
+<td>
+          <input type="text" id="txtname"/> 
+          </td> 
+      </tr>
+
+  <tr></tr>
+  <tr></tr>
+  <tr style="border: 1px solid black;">
+    <td> Company Name </td> <td></td> <td></td>
+    <td><input type="text" id="txtcomp"/> 
+    </td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td>Email id </td> <td></td> <td></td>
+    <td><input type="text" id="txtemail"/></td> 
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr>
+    <td> Your Comments </td> <td></td> <td></td>
+    <td> <input type="text" id="txtcomment"/></td>  </tr>
+    <tr>
+      <td> 
+       <button name="btnsubmit"onclick="Validatename();"> SUBMIT
+        
+        </button>
+      </td> <td></td> <td></td>
+    <td>
+      <label id="lblName"></label> 
+    </td> 
+    </tr>
+  
+  </table>
+</font>
+</p>
+</center>
+
+ <header id="header">
+<p style="padding-top: 25px; padding-left:30px;">
+<image src="Manju pic.JPG"/></p>
+<p>
+<nav id="navbar" class="nav-menu navbar">
+
+        <ul>
+
+          <li><a href="C:\Users\singmanb\learn coding\nology\web-fundamentals\manju portfolio_1\index.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="C:\Users\singmanb\learn coding\nology\web-fundamentals\manju portfolio_1\summary.html" class="nav-link scrollto active" ><i class="bx bx-home"></i> <span>Summary of my profile</span></a></li>
+          <li><a href="C:\Users\singmanb\learn coding\nology\web-fundamentals\manju portfolio_1\experience.html" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Projects</span></a></li>
+          <li><a href="C:\Users\singmanb\learn coding\nology\web-fundamentals\manju portfolio_1\contact details.html" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Contact Me</span></a></li>
+          <li><a href="C:\Users\singmanb\learn coding\nology\web-fundamentals\manju portfolio_1\feedback form.html" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Feedback Form</span></a></li>
+          
+        </ul>
+      </nav>
+</p>
+</header>
+</body>
+
+</html>
